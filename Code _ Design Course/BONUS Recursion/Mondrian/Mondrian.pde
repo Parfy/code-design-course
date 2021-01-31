@@ -18,7 +18,7 @@ void draw() {
   rec(padding, padding, width - padding, height - padding, n);
 }
 
-//Redraw on keyboard press
+//Redraw on keyboard press of n, save png with s
 void keyPressed() { 
   if (key == 's') {
     saveFrame("Mond-######.png");

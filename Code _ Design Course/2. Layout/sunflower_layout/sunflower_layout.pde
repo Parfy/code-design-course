@@ -22,7 +22,7 @@ void draw() {
     x = r * sin(a) + width/2;
     y = r * cos(a) + height/2;
 
-    ellipse(x, y, 4, 4);
+    ellipse(x, y, 14, 14);
     n++;
   }
 }
